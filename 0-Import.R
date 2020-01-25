@@ -8,3 +8,4 @@ kansas_state <- read_xlsx("t2016.xlsx", skip = 165, col_names = FALSE)
 
 gender <- kansas_state[1:4]
 names(gender) <- c("COLLEGE", "N", "Male", "F")
+gender
